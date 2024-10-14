@@ -1,0 +1,16 @@
+/* learned-styles.csss */
+
+body {
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
