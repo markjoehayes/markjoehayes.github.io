@@ -1,12 +1,14 @@
 /* learned-styles.csss */
 
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
 .container {
     width: 980px;
     margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
+    display: flex 1;
 }
 
 img {

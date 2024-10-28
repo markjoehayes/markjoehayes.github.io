@@ -1,9 +1,7 @@
 /* styles.css */
 
 body {
-    background-image: url("images/crab.JPG");
-    color: #cccccc;
-    padding: 70px 0;
+    background-color: salmon;
 }
 
 h1 {
