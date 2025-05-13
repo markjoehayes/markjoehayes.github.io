@@ -1,26 +1,55 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="styles.css">
-        <title>My Personal  Website</title>
+        <link rel="shortcut icon" type="image/jpeg" href="small-profile.jpeg"/>
+        <title>My Personal Website</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                color: white; /* Assuming you want white text on the background */
+            }
+            .hero {
+                background-image: url('background.jpg');
+                background-size: cover;
+                height: 100vh; /* This will make it full viewport height */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .list ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            .list a {
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                margin: 10px;
+                padding: 8px 15px;
+                background: rgba(0,0,0,0.5); /* Semi-transparent background for links */
+                border-radius: 5px;
+            }
+        </style>
      </head>
 
      <body>
-         <h1>Hello, My Name is<br>Mark Hayes</h1>
+       <div class="hero">
+           <img src="avataaars.png" style="height:150px; border-radius: 50%;" alt="profile avatar">
+           <h1>Hello, My Name is<br>Mark Hayes</h1>
              
-         <div class="list">
-           <ul>
-
-                   <!--<li><a href="pictures.html" target="blank">Pictures</a></li>-->
-             <li><a href="/Learned/learned.html">This week I learned</a></li>
-             <li><a href="/Rambles/rambles.html">My Rambling</a></li>
-             <li><a href="accomplish.html" >Accomplishments</a></li>
-             <!-- <li><a href="read.html" target="blank">What I am reading</a></li>-->
-            </ul>
-         </div>
-     </body>
+           <div class="list">
+             <ul>
+               <li><a href="./Learned/learned.html">This week I learned</a></li>
+               <li><a href="./Rambles/rambles.html">My Rambling</a></li>
+               <li><a href="accomplish.html">Accomplishments</a></li>
+             </ul>
+           </div>
+       </div>
+     </body>    
 </html>
